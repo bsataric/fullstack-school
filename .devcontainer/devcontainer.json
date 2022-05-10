@@ -36,6 +36,7 @@
 		"java": "latest",
 		"maven": "latest",
 		"gradle": "latest",
-		"dotnet": "6.0"
-	}
+		"dotnet": "latest"
+	},
+	"postCreateCommand": "bash -i -c 'nvm install --lts'"
 }
